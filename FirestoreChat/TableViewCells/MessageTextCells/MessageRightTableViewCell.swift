@@ -17,7 +17,7 @@ class MessageRightTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         bubbleImageView.image = #imageLiteral(resourceName: "bubble_blue").resizableImage(withCapInsets: UIEdgeInsets(top: 22, left: 26, bottom: 22, right: 26)).withRenderingMode(.alwaysTemplate)
-        bubbleImageView.tintColor = #colorLiteral(red: 0, green: 0.4784313725, blue: 1, alpha: 1)
+        bubbleImageView.tintColor = #colorLiteral(red: 1, green: 0.337254902, blue: 0.337254902, alpha: 1)
         
     }
 
